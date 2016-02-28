@@ -1,0 +1,546 @@
+---
+layout: null
+---
+{
+  "sets": [
+    {
+      "setNumber": 1,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"Teetotaller", "key" : "G", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/114", "author":""},
+          {"title":"St Anne's", "key" : "D", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/103", "author":""},
+          {"title":"Maid behind the Bar", "key" : "D", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/64", "author":""},
+          {"title":"Wind that Shakes the Barley", "key" : "D", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/116", "author":""}
+        ]
+    },
+    {
+      "setNumber": 2,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"Humours Of Tullycrine", "key" : "Ador", "type" : "hornpipe", "origin":"Clare", "link":"https://thesession.org/tunes/980",
+            "author":"", "note":"Also called Bobby Casey's",
+            "refs":[{"title":"Humours of Tullycrine (Ador)","link":"http://slowplayers.org/2014/05/05/humours-of-tullycrine-ador/"}]
+          },
+          {"title":"Monks jig", "key" : "Ador", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/14416", "author":""},
+          {"title":"Old John's", "key" : "Ador", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/57", "author":""},
+          {"title":"Cliffs of Moher", "key" : "Ador", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/12", "author":""},
+          {"title":"Rose in the Heather", "key" : "D", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/447", "author":""}
+        ],
+      "note":"Old John's was added around 2007 and Rose in the Heather was added in 2009."
+    },
+    {
+      "setNumber": 3,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"Kesh Jig", "key" : "G", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/55", "author":""},
+          {"title":"Morrisons", "key" : "Em", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/71", "author":""},
+          {"title":"Kid on the Mountain", "key" : "Em", "type" : "slip jig", "origin":"", "link":"https://thesession.org/tunes/52", "author":""}
+        ]
+    },
+    {
+      "setNumber": 4,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"Colraine Jig", "key" : "Am", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/17", "author":""},
+          {"title":"My Darling Asleep", "key" : "D", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/76", "author":""},
+          {"title":"Club Céili (The Old Favourite)", "key" : "G", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/56", "author":""}
+        ]
+    },
+    {
+      "setNumber": 5,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"Silver Spear", "key" : "D", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/182", "author":"",
+            "refs":[{"title":"Silver Spear (D)","link":"http://slowplayers.org/2014/04/09/silver-spear/"}]
+          },
+          {"title":"Rakish Paddy", "key" : "Ador", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/86", "author":"",
+              "refs":[{"title":"Rakish Paddy (Dmix)","link":"http://slowplayers.org/2014/05/05/rakish-paddy-dmix/"}]
+          }
+        ]
+    },
+    {
+      "setNumber":6,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"Tripping Up The Stairs", "key" : "D", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/111", "author":""},
+          {"title":"Paddy Clancy's", "key" : "D", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/832", "author":"",
+            "refs":[{"title":"Paddy Clancy’s (D)","link":"http://slowplayers.org/2014/11/05/paddy-clancys-d/"}]
+          }
+        ],
+        "note" : "This set preceeds setting starting with the Kesh Jig."
+    },
+    {
+      "setNumber":7,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"Butterfly", "key" : "Edor", "type" : "slip jig", "origin":"", "link":"https://thesession.org/tunes/10", "author":"",
+              "refs":[{"title":"The Butterfly (Edor)","link":"http://slowplayers.org/2014/05/04/the-butterfly-edor/"}]
+          },
+          {"title":"A Fig For A Kiss", "key" : "Edor", "type" : "slip jig", "origin":"", "link":"https://thesession.org/tunes/750", "author":""}
+        ]
+    },
+    {
+      "setNumber":8,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"Star of Munster", "key" : "Ador", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/197",
+            "author":"", "note":"Setting x:4 is the closest to how it is played at the session."}
+        ]
+    },
+    {
+      "setNumber":9,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"Humours of Tulla", "key" : "G", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/141",
+            "author":"", "note":"We used to do Silverspear first then Humours of Tulla. Played in key of G. Martin Hayes does a really nice version of this tune.",
+            "refs" :[{"title":"Humours of Tulla (D)","link":"http://slowplayers.org/2014/05/05/humours-of-tulla-d-2/"}]
+          }
+        ]
+    },
+    {
+      "setNumber": 10,
+      "since" : 2005,
+      "tunes" : [
+        {"title":"The Haunted House", "key" : "G", "type" : "jig", "origin":"Galway", "link":"https://thesession.org/tunes/1098", "author":"Vicent Broderick"},
+        {"title":"My Darling Asleep", "key" : "D", "type" : "jig", "origin":"" },
+        {"title":"Club Ceilli", "key" : "G", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/56" }
+        ]
+    },
+    {
+      "setNumber": 11,
+      "since" : 2005,
+      "tunes" : [
+        {"title":"Humours of Glenndart", "key" : "D", "type" : "jig", "origin":"Cork", "link":"http://slowplayers.org/2014/06/11/humours-of-glendart-d/", "author":""},
+        {"title":"Saddle the Pony", "key" : "G", "type" : "jig", "origin":"Limerick", "link":"https://thesession.org/tunes/307", "author":"Martin Mulvihill"},
+        {"title":"Tobin's Favourite", "key" : "D", "type" : "jig", "origin":"Chicago", "link":"https://thesession.org/tunes/308", "author":"Called after Adam Tobin"}
+        ]
+    },
+    {
+      "setNumber": 12,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"Brosna", "key" : "G", "type" : "slide", "origin":"Sliabh Luachra, Kerry/Cork", "link":"https://thesession.org/tunes/1414", "author":"~Brosna Céili Band"},
+          {"title":"O'Keefe's,Dan", "key" : "Edor", "type" : "slide", "origin":"Kerry", "link":"https://thesession.org/tunes/53", "author":"Dan O'Keefe (Piper)"},
+          {"title":"Dennis Murphy's", "key" : "D", "type" : "slide", "origin":"Kerry", "link":"https://thesession.org/tunes/159", "author":"Denis Murphy"}
+        ]
+    },
+    {
+      "setNumber": 13,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"Britches full of Stiches", "key" : "D", "type" : "polka", "origin":"", "link":"https://thesession.org/tunes/441", "author":""},
+          {"title":"Armagh Polka (Forty Pound Fload or Ryans)", "key" : "D", "type" : "polka", "origin":"", "link":"https://thesession.org/tunes/441", "author":""},
+          {"title":"Ballydesmond No 3", "key" : "D", "type" : "polka", "origin":"Cork/Kerry", "link":"https://thesession.org/tunes/531", "author":""}
+        ]
+    },
+    {
+      "setNumber": 14,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"Off To California", "key" : "G", "type" : "hornpipe", "origin":"", "link":"https://thesession.org/tunes/30", "author":""},
+          {"title":"Harvest Home", "key" : "D", "type" : "hornpipe", "origin":"", "link":"https://thesession.org/tunes/49", "author":""},
+          {"title":"Boys of Bluehill ", "key" : "D", "type" : "hornpipe", "origin":"", "link":"https://thesession.org/tunes/651", "author":""}
+        ]
+    },
+    {
+      "setNumber": 15,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"Dance of the Honey Bee", "key" : "D", "type" : "hornpipe", "origin":"", "link":"https://thesession.org/tunes/130", "author":"Charlie Lennon", "note" :"Setting X:2"},
+          {"title":"Cuckoo's Nest", "key" : "G", "type" : "hornpipe", "origin":"", "link":"https://thesession.org/tunes/2395", "author":""}
+        ]
+    },
+    {
+      "setNumber": 16,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"Glenbeigh (Curlew Hills)", "key" : "G", "type" : "hornpipe", "origin":"", "link":"https://thesession.org/tunes/670", "author":""},
+          {"title":"Rights of Man", "key" : "Em", "type" : "hornpipe", "origin":"", "link":"https://thesession.org/tunes/83", "author":""},
+          {"title":"Pride Of Petravore", "key" : "Em", "type" : "hornpipe", "origin":"", "link":"https://thesession.org/tunes/82", "author":""}
+        ]
+    },
+    {
+      "setNumber": 17,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"Trip to Sligo", "key" : "Em", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/397", "author":""},
+          {"title":"Dummore Lassies", "key" : "Em", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/462", "author":""}
+        ]
+    },
+    {
+      "setNumber": 18,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"Sí Beag Sí Mór", "key" : "D", "type" : "waltz", "origin":"Nobber", "link":"https://thesession.org/tunes/449", "author":"Turlough O'Carolan"},
+          {"title":"Fanny Power", "key" : "G", "type" : "waltz", "origin":"", "link":"https://thesession.org/tunes/957", "author":"Turlough O'Carolan","note": "Setting X:2 after M:3/4"},
+          {"title":"Planxty Irwin", "key" : "G", "type" : "waltz", "origin":"", "link":"https://thesession.org/tunes/790", "author":"Turlough O'Carolan"},
+          {"title":"South Winds", "key" : "G", "type" : "waltz", "origin":"", "link":"https://thesession.org/tunes/601", "author":""}
+      ]
+    },
+    {
+      "setNumber": 19,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"O'Carolan's Draught", "key" : "G", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/1421", "author":"Turlough O'Carolan"}
+        ]
+    },
+    {
+      "setNumber": 20,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"Michelle Ferries", "key" : "Em", "type" : "misc", "origin":"", "link":"", "author":""}
+        ]
+    },
+    {
+      "setNumber": 21,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"Deireadh Fomhair (Terry Cuz Teehan's)", "key" : "Em", "type" : "hornpipe", "origin":"", "link":"https://thesession.org/tunes/444", "author":"", "note":"Terry 'Cuz' Teehan's"},
+          {"title":"Padraig Cowman's", "key" : "Am", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/2571", "author":"", "note":"Seamus O'Shanahan's"}
+        ]
+    },
+    {
+      "setNumber": 22,
+      "since" : 2005,
+      "tunes" : [
+          {"title":"The Golden Stud", "key" : "Em", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/4740", "author":"M. & K. Hanrahan , Paul Roche and Maurice Lennon"},
+          {"title":"Tamilin in Dm then Am", "key" : "Dm", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/248", "author":""},
+          {"title":"Mason's Apron", "key" : "A", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/74", "author":""}
+        ]
+    },
+    {
+      "setNumber": 23,
+      "since" : 2006,
+      "tunes" : [
+          {"title":"Carroroe Jig", "key" : "D", "type" : "jig", "origin":"Galway(?)", "link":"http://slowplayers.org/2015/04/15/carraroe-d/", "author":""},
+          {"title":"Out the Ocean", "key" : "G", "type" : "jig", "origin":"Scotland(?)", "link":"https://thesession.org/tunes/108", "author":""},
+          {"title":"The Black Rogue", "key" : "Amix", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/1076", "author":""},
+          {"title":"Mug of Brown Ale", "key" : "Amix", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/888", "author":""},
+          {"title":"Hag at the Churn", "key" : "Dmix", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/829", "author":""}
+        ]
+    },
+    {
+      "setNumber": 24,
+      "since" : 2006,
+      "tunes" : [
+          {"title":"Ballydesmond Polka No 2", "key" : "Ador", "type" : "polka", "origin":"", "link":"https://thesession.org/tunes/239", "author":""},
+          {"title":"Ballydesmond Polka No 1", "key" : "Ador", "type" : "polka", "origin":"", "link":"https://thesession.org/tunes/239", "author":""},
+          {"title":"Peg Ryan's (Kerry Polka No 1, Egan's)", "key" : "D", "type" : "polka", "origin":"", "link":"https://thesession.org/tunes/39", "author":""}
+        ]
+    },
+    {
+      "setNumber": 25,
+      "since" : 2006,
+      "tunes" : [
+          {"title":"Dusty Window Sills", "key" : "Ador", "type" : "jig", "origin":"Chicago", "link":"https://thesession.org/tunes/29", "author":"Johnny Harling"},
+          {"title":"Cliffs of Moher", "key" : "Ador", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/12", "author":""},
+          {"title":"Rose in the Heather", "key" : "D", "type" : "jig", "origin":"Sliabh Luachra,Cork/Kerry", "link":"https://thesession.org/tunes/447", "author":""}
+        ]
+    },
+    {
+      "setNumber": 26,
+      "since" : 2006,
+      "tunes" : [
+          {"title":"The Peacock's Feathers", "key" : "G", "type" : "hornpipe", "origin":"", "link":"https://thesession.org/tunes/663", "author":"", "note" :"Setting X:3"},
+          {"title":"Walsh's", "key" : "A", "type" : "hornpipe", "origin":"", "link":"https://thesession.org/tunes/2332", "author":""}
+        ]
+    },
+    {
+      "setNumber": 27,
+      "since" : 2006,
+      "tunes" : [
+          {"title":"Kathleen Hehir's", "key" : "D", "type" : "slide", "origin":"", "link":"https://thesession.org/tunes/157", "author":""},
+          {"title":"Merrily Kissed The Quaker", "key" : "G", "type" : "slide", "origin":"", "link":"https://thesession.org/tunes/70", "author":""},
+          {"title":"Going To The Well For Water", "key" : "D", "type" : "slide", "origin":"", "link":"https://thesession.org/tunes/455", "author":""}
+        ]
+    },
+    {
+      "setNumber": 28,
+      "since" : 2007,
+      "tunes" : [
+          {"title":"Swedish Waltz", "key" : "Em", "type" : "waltz", "origin":"", "link":"", "author":"", "note":"See Padraig O'Carroll's book: The Irish Mandolin"},
+          {"title":"Drive the Cold Winter Away", "key" : "Em", "type" : "waltz", "origin":"", "link":"https://thesession.org/tunes/11278", "author":"","note":"See Padraig O'Carroll's book: The Irish Mandolin"}
+        ]
+    },
+    {
+      "setNumber": 29,
+      "since" : 2007,
+      "tunes" : [
+          {"title":"Brendan Tonra's", "key" : "D", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/451", "author":"Brendan Tonra"},
+          {"title":"Kilavil", "key" : "G", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/667", "author":""},
+          {"title":"Ship in Full Sail", "key" : "G", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/261", "author":""}
+        ]
+    },
+    {
+      "setNumber": 30,
+      "since" : 2007,
+      "tunes" : [
+          {"title":"Jim Ward's", "key" : "G", "type" : "jig", "origin":"Clare", "link":"https://thesession.org/tunes/793", "author":"Jim Ward"},
+          {"title":"Blarney Pilgrim", "key" : "Dmix", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/5", "author":""},
+          {"title":"The Cook in the Kitchen", "key" : "G", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/808", "author":""}
+        ]
+    },
+    {
+      "setNumber": 31,
+      "since" : 2008,
+      "tunes" : [
+          {"title":"Fishermans", "key" : "G", "type" : "hornpipe", "origin":"", "link":"https://thesession.org/tunes/872", "author":""},
+          {"title":"Cronins", "key" : "G", "type" : "hornpipe", "origin":"", "link":"https://thesession.org/tunes/478", "author":""}
+        ],
+        "note":"We follow Planxty here."
+    },
+    {
+      "setNumber": 32,
+      "since" : 2008,
+      "tunes" : [
+          {"title":"Lilting Banshee", "key" : "Ador", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/60", "author":""},
+          {"title":"Haste to the Wedding ", "key" : "D", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/582", "author":""},
+          {"title":"Maid on the Green ", "key" : "G", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/1831", "author":""}
+        ]
+    },
+    {
+      "setNumber": 33,
+      "since" : 2008,
+      "tunes" : [
+          {"title":"Ebb Tide", "key" : "Em", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/1821", "author":""},
+          {"title":"Pretty Girls of Mayo", "key" : "G", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/1954", "author":""},
+          {"title":"Lucky in Love", "key" : "G", "type" : "reel", "origin":"", "link":null, "author":"Charlie Lennon"}
+        ]
+    },
+    {
+      "setNumber": 34,
+      "since" : 2009,
+      "tunes" : [
+          {"title":"Joe Cooley's Reel", "key" : "Edor", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/1", "author":""},
+          {"title":"Wise Maid", "key" : "D", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/118", "author":""},
+          {"title":"Bird in the Bush", "key" : "G", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/629", "author":""}
+        ]
+    },
+    {
+      "setNumber": 35,
+      "since" : 2009,
+      "tunes" : [
+          {"title":"Glass Beer", "key" : "Em", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/188", "author":""},
+          {"title":"Toss the Feathers (Em)", "key" : "Edor", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/113", "author":""},
+          {"title":"Toss the Feathers (D)", "key" : "D", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/113", "author":""}
+        ]
+    },
+    {
+      "setNumber": 36,
+      "since" : 2009,
+      "tunes" : [
+          {"title":"Bucks of Oranmore", "key" : "D", "type" : "reel", "origin":"", "link":"", "author":"" }
+        ],
+        "note":"See http://slowplayers.org/2014/04/21/bucks-of-oranmore-d/, Foxhunters Reel is a good follow-up."
+    },
+    {
+      "setNumber": 37,
+      "since" : 2009,
+      "tunes" : [
+          {"title":"Banish Misfortune", "key" : "Dmix", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/9", "author":""},
+          {"title":"Tenpenny Bit", "key" : "Ador", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/109", "author":""},
+          {"title":"Gillan’s Apples", "key" : "D", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/1854", "author":""}
+        ]
+    },
+    {
+      "setNumber": 38,
+      "since" : 2009,
+      "tunes" : [
+          {"title":"Farewell To Erin", "key" : "Ador", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/33", "author":""}
+        ]
+    },
+    {
+      "setNumber": 39,
+      "since" : 2010,
+      "tunes" : [
+          {"title":"Drowsy Maggie", "key" : "Edor", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/27", "author":""},
+          {"title":"Miss McCleod's", "key" : "G", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/75", "author":""},
+          {"title":"Merry Blacksmith", "key" : "D", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/72", "author":""},
+          {"title":"Silver Spear", "key" : "D", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/182", "author":""},
+          {"title":"Rakish Paddy", "key" : "Ador", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/86", "author":""}
+        ]
+    },
+    {
+      "setNumber": 40,
+      "since" : 2010,
+      "tunes" : [
+          {"title":"Sally Gardens", "key" : "G", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/98", "author":""}
+        ]
+    },
+    {
+      "setNumber": 41,
+      "since" : 2010,
+      "tunes" : [
+          {"title":"The Home Ruler", "key" : "D", "type" : "hornpipe", "origin":"Antrim", "link":"https://thesession.org/tunes/310", "author":"Frank McCollam"},
+          {"title":"Kitty's Wedding", "key" : "D", "type" : "hornpipe", "origin":"", "link":"https://thesession.org/tunes/869", "author":""}
+        ]
+    },
+    {
+      "setNumber": 42,
+      "since" : 2010,
+      "tunes" : [
+          {"title":"Lucy Farr's", "key" : "G", "type" : "barndance", "origin":"", "link":"https://thesession.org/tunes/1307", "author":"Lucy Farr"},
+          {"title":"Bill Malley's", "key" : "G", "type" : "barndance", "origin":"", "link":"https://thesession.org/tunes/162", "author":""},
+          {"title":"Kilnamona", "key" : "G", "type" : "barndance", "origin":"", "link":"https://thesession.org/tunes/163", "author":"", "note":"setting X:3"}
+        ]
+    },
+    {
+      "setNumber": 43,
+      "since" : 2010,
+      "tunes" : [
+          {"title":"The German Tunes by Altan", "key" : "D", "type" : "barndance", "origin":"Donegal", "link":"https://www.youtube.com/watch?v=VN4W2NPKeng", "author":""}
+        ]
+    },
+    {
+      "setNumber": 44,
+      "since" : 2011,
+      "tunes" : [
+          {"title":"Chief O'Neill's Favourite", "key" : "D", "type" : "hornpipe", "origin":"", "link":"https://thesession.org/tunes/13", "author":""},
+          {"title":"King of the Fairies", "key" : "Edor", "type" : "hornpipe", "origin":"", "link":"https://thesession.org/tunes/475", "author":"",
+            "note": "seeting X:1", "refs":[{"title":"King Of The Fairies (Edor)","link":"http://slowplayers.org/2014/05/05/king-of-the-fairies-edor/"}]
+          }
+        ]
+    },
+    {
+      "setNumber": 45,
+      "since" : 2011,
+      "tunes" : [
+          {"title":"Cahir’s Kitchen", "key" : "Em", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/1090", "author":""}
+        ]
+    },
+    {
+      "setNumber": 46,
+      "since" : 2011,
+      "tunes" : [
+          {"title":"Lord Mayo's", "key" : "Am", "type": "march", "origin":"",
+            "link":"https://tunepal.org/index.html#!/tune/5128-bsmi2-tunes.abc-34-Lord~Mayo~(march)~%2525~bsmi2%253Cbb", "author":""},
+          {"title":"Gavotte", "key" : "Am", "type" : "6/4 - Slide / Bretton", "origin":"", "link":"https://tunepal.org/index.html#!/tune/2081-19.abc-1-Gavotte", "author":""},
+          {"title":"Maid of Mt Cisco", "key" : "Am", "type" : "reel", "origin":"", "link":"", "author":"", "note": "Not yet, on the todo list."}
+        ],
+        "note":"This set is inspired by Lúnasa's set"
+    },
+    {
+      "setNumber": 47,
+      "since" : 2011,
+      "tunes" : [
+          {"title":"Love in America", "key" : "D", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/77", "author":""},
+          {"title":"Toss the Feathers 1", "key" : "Em", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/113", "author":"",
+              "note":"Setting X:1"
+          },
+          {"title":"Toss the Feathers 2", "key" : "D", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/113", "author":"",
+              "note":"Setting X:3"
+          }
+        ]
+    },
+    {
+      "setNumber":48,
+      "since" : 2011,
+      "tunes" : [
+          {"title":"The Bag Of Spuds", "key" : "Ador", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/579", "author":""}
+        ]
+    },
+    {
+      "setNumber": 49,
+      "since" : 2012,
+      "tunes" : [
+          {"title":"Jackie Coleman's Reel", "key" : "D", "type" : "reel", "origin":"Scotland(?)", "link":"https://thesession.org/tunes/574", "author":""},
+          {"title":"Mountain Road", "key" : "D", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/68", "author":""},
+          {"title":"Cregg's Pipes", "key" : "G", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/605", "author":""}
+        ]
+    },
+    {
+      "setNumber": 50,
+      "since" : 2013,
+      "tunes" : [
+          {"title":"Japanese Hornpipe", "key" : "A", "type" : "hornpipe", "origin":"", "link":"", "author":"See Paul Kelly's book"}
+        ]
+    },
+    {
+      "setNumber": 51,
+      "since" : 2014,
+      "tunes" : [
+        {"title":"Fr Kelly's", "key" : "G", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/791"   },
+        {"title":"Miss Monaghans", "key" : "D", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/471"}
+      ]
+    },
+
+    {
+      "setNumber": 52,
+      "since" : 2015,
+      "tunes" : [
+          {"title":"Raggle Taggle Gypsy", "key" : "Em", "type" : "song", "origin":"", "link":"https://www.youtube.com/watch?v=JyP407UnUWw", "author":""},
+          {"title":"Tamhair dom de Laimh (Planxty Arrangement)", "key" : "G", "type" : "waltz", "origin":"", "link":null, "author":"Turlough O'Carolan"}
+        ]
+    },
+    {
+      "setNumber": 53,
+      "since" : 2015,
+      "tunes" : [
+          {"title":"Concertina Reel", "key" : "D", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/18", "author":""},
+          {"title":"Come West Along the Road", "key" : "G", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/474", "author":""}
+        ]
+    },
+    {
+      "setNumber": 54,
+      "since" : 2015,
+      "tunes" : [
+          {"title":"John Doherty's Mazurka (Altan)", "key" : "G/D/G/C", "type" : "mazurka", "origin":"", "link":"https://thesession.org/tunes/7125", "author":"John Doherty"}
+        ]
+    },
+
+    {
+      "setNumber": 55,
+      "since" : 2015,
+      "tunes" : [
+          {"title":"Kerfunken", "key" : "D", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/139", "author":"Hammy Hamilton",
+            "note":"Played Martin Hayes style"
+          },
+          {"title":"Leading Role", "key" : "G", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/7096", "author":"Liz Carroll"}
+        ]
+    },
+    {
+      "setNumber": 56,
+      "since" : 2016,
+      "tunes" : [
+          {"title":"Concertina", "key" : "D", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/18", "author":""},
+          {"title":"Come West Along The Road", "key" : "G", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/474", "author":""}
+        ]
+    },
+    {
+      "setNumber": 57,
+      "since" : 2016,
+      "tunes" : [
+          {"title":"Ciaran's Capers - Tune 1 (Altan)", "key" : "Amix", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/4754", "author":"",
+            "refs":[{"title":"Musescore","link":"https://musescore.com/user/3811861/scores/1753926"}]
+          },
+          {"title":"Ciaran's Capers - Tune 2 (Altan)", "key" : "Amix", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/12537", "author":""}
+        ]
+    },
+    {
+      "setNumber": 58,
+      "since" : 2016,
+      "tunes" : [
+          {"title":"Thaledo's", "key" : "D", "type" : "barndance", "origin":"", "link":"https://www.youtube.com/watch?v=kzXrXTUPukU", "author":""},
+          {"title":"Turkey in the Straw", "key" : "D", "type" : "barndance", "origin":"", "link":"", "author":""}
+        ]
+    },
+    {
+      "setNumber": 59,
+      "since" : 2016,
+      "tunes" : [
+        {"title":"Jig of Slurs", "key" : "D", "type" : "jig"},
+        {"title":"Atholl Highlander Jig", "key" : "A", "type" : "jig"}
+      ]
+    }
+  ],
+
+  "_comment":
+      {
+        "setNumber":0,
+        "since" : 0,
+        "tunes" : [
+            {"title":"", "key" : "", "type" : "", "origin":"", "link":"", "author":""}
+          ]
+      }
+
+}

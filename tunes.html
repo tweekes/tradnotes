@@ -1,0 +1,209 @@
+---
+layout: default
+title: Tunes
+permalink: /tunes/
+---
+<div ng-app="App" ng-controller="TradSetCtrl">
+  <div class="pure-g">
+      <div class="pure-u-1">
+            <h1 class="content-subhead">Tunes</h1>
+            <p> The list below gives some of the tune sets that are played at the <b>Tramore Wednesday Trad Session</b>
+              (see <a href="https://www.facebook.com/groups/soggybeermats/">Soggy Beer Mat's Facebook Group</a>).
+              As time goes on the list will be filled out with tunes already in play and new ones that are added to
+              the session repetoire. To make it interesting the sets are presented in approximate chronological order
+              and as such will most likely cause light contraversy.There are [[setcount]] sets with [[tunecount]] tunes in
+              the list so far. </p>
+
+            <p> Each set in the list below gives the tunes and if available some notes about the set. The key and tune
+              type is given for each tune in the set. In most cases a link to the music notation is given for the tune,
+              note the accuracy of the tune setting is approximate only but should be close enough.
+            </p>
+
+            <p>Three particular web sites were used to prepare this list. <a = href="https://thesession.org">The Session</a>
+              provides a good resource for ABC notation for the tunes. In some cases The Session gives many settings for a
+              tune, see the additional notes for the particular setting that is closest to the one played at <b>Tramore Wednesday
+              Trad Session</b>. The <a href="http://slowplayers.org/">Slow Players Web Site </a> had additional information about
+              some of the tunes, a link has been provided to this information when available. In some cases the name of the tune
+              was not known as it was learnt by ear. The <a href="https://tunepal.org">Tunepal</a> website was used to find
+              the tune name and subsequently the notation for the tune. As an example, in one set a tune was played after Tripping
+              Up the Stairs but its name was never known &#8211; Pidgeon Power played it so ... &#8211; the name of this tune turns
+              out to be Paddy Clancy's
+            </p>
+
+            <p>To help find tunes easily, the list can be filtered by keyword, musical key, or/and tune type (jig, reel, etc.). </p>
+
+            <p>One possible purpose of the list is to keep alive the older tunes, or the ones we don't play so often my randomly picking
+              an "old set" from the list and play it in future sessions &#8211; it is so easy to loose tunes by not practicing or playing
+              them regularly.</p>
+
+            <p class="screen-size">Current Screen Size width[[width]]</p>
+
+      </div>
+  </div>
+
+  <div class="pure-g">
+    <div class="pure-u-1-1 pure-u-lg-2-24">
+    </div>
+    <div class="pure-u-1-1 pure-u-lg-20-24" style="position:relative" >
+      <div class="pure-u-1-1" id="tw-random-select-popup">
+          <div class="pure-g">
+            <div class="pure-u-1-1 shim-top-0">
+              <span class="tw-inline">Set details:</span>
+              <div class="tw-inline pure-menu pure-menu-horizontal">
+                <ul class="pure-menu-list">
+                  <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" id="menuLink100" class="pure-menu-link">Year</a>
+                    <ul class="pure-menu-children">
+                        <li class="pure-menu-item" ng-class="{'pure-menu-selected':selectSetYearIdx==-1}"><a href="#" ng-click="selectRandomYear(-1)" class="pure-menu-link">All</a></li>
+                        <li ng-repeat="y in setYears" class="pure-menu-item"ng-class="{'pure-menu-selected':selectSetYearIdx==$index}">
+                            <a href="#" ng-click="selectRandomYear($index)" class="pure-menu-link">On or Before [[y]]</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <span ng-if="selectSetYearIdx == -1" class="tw-inline">Picking random sets from all years</span>
+              <span ng-if="selectSetYearIdx != -1" class="tw-inline">Picking random sets on or before: [[setYears[selectSetYearIdx] ]]</span>
+              <button ng-click="popupHide('#tw-random-select-popup'); pickRandomSet();"  class="pure-button button-small button-secondary tw-right">Go</button>
+            </div>
+          </div>
+
+      </div>
+
+      <div class="pure-u-1-1" id="tw-set-details-popup">
+          <div class="pure-g">
+            <div class="pure-u-1">
+                <h3 ng-if="selectedSet" class="tw-center-text">Set no: [[selectedSet.setNumber]] (playing since [[selectedSet.since]])</h3>
+                <p ng-if="!selectedSet" class="tw-center-text">No more sets available for Random Pick!</p>
+            </div>
+            <div ng-if="selectedSet && smallScreen == false" class="pure-u-1">
+                <table class="fixed pure-table pure-table-horizontal">
+                  <col width="30%" />
+                  <col width="5%" />
+                  <col width="5%" />
+                  <col width="5%" />
+                  <col width="15%" />
+                  <col width="20%" />
+                  <col width="20%" />
+                  <thead>
+                    <tr>
+                      <th>Tune</th><th>Type</th><th>Key</th><th>Origin</th><th>Composer</th><th>Note</th><th>References</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr ng-repeat="tune in selectedSet.tunes" ng-class="{'pure-table-odd':$odd}">
+                        <td class="tw-align-top">
+                          <a ng-if="tune.link" href="[[tune.link]]" target="_blank">[[tune.title]]</a>
+                          <span ng-if="!tune.link">[[tune.title]]</span>
+                        </td>
+                        <td class="tw-align-top">[[tune.type]]</td>
+                        <td class="tw-align-top">[[tune.key]]</td>
+                        <td class="tw-align-top">[[tune.origin]]</td>
+                        <td class="tw-align-top">[[tune.author]]</td>
+                        <td class="tw-align-top">[[tune.note]]</td>
+                        <td class="tw-align-top">
+                            <p ng-repeat="ref in tune.refs"><a href="[[ref.link]]" target="_blank">[[ref.title]]</a> </p>
+                        </td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+            <div ng-if="selectedSet && smallScreen == true" class="pure-u-1">
+                <table class="fixed pure-table pure-table-horizontal tw-table-full-width">
+                  <thead>
+                    <tr>
+                      <th>Set Tunes</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr ng-repeat="tune in selectedSet.tunes" ng-class="{'pure-table-odd':$odd}">
+                        <td>
+                          <p>
+                            <strong>Tune:</strong>
+                            <a ng-if="tune.link" href="[[tune.link]]" target="_blank">[[tune.title]]</a>
+                            <span ng-if="!tune.link">[[tune.title]]</span>
+                          </p>
+                          <p><strong>Type:</strong> [[tune.type]] <strong>Key:</strong> [[tune.key]]</p>
+                          <p><strong>Origin:</strong>[[tune.origin]] <strong>Composer:</strong>[[tune.author]]</p>
+                          <p><strong>Note:</strong>[[tune.note]]</p>
+                          <p ng-repeat="ref in tune.refs"><a href="[[ref.link]]" target="_blank">[[ref.title]]</a> </p>
+                      </td>
+                      </tr>
+                  </tbody>
+                </table>
+            </div>
+            <div class="pure-u-1 shim-top-1">
+                <button ng-click="pickRandomSet()" ng-if="randomPickMode && selectedSet" class="pure-button button-small button-secondary tw-right">Next</button>
+                <button ng-click="randomPickMode = false; popupHide('#tw-set-details-popup');"  class="pure-button button-small button-secondary tw-right">Close</button>
+            </div>
+          </div>
+      </div>
+
+      <div>
+        <div class="pure-g">
+          <div class="pure-u-1-1 pure-u-lg-24-24" style="margin-top:0.4em">
+            <input type="search" placeholder="Enter search text" class="shim-left-1 search tw-inline" ng-model="searchText">
+            <div class="pure-menu pure-menu-horizontal tw-inline">
+              <ul class="pure-menu-list">
+                <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+                  <a href="#" id="menuLink1" class="pure-menu-link">Tune Types</a>
+                  <ul class="pure-menu-children">
+                      <li class="pure-menu-item" ng-class="{'pure-menu-selected':selectTuneTypeIdx==-1}"><a href="#" ng-click="filterTunes('TUNETYPE',-1)" class="pure-menu-link">All</a></li>
+                      <li ng-repeat="t in tuneTypes" class="pure-menu-item"ng-class="{'pure-menu-selected':selectTuneTypeIdx==$index}">
+                          <a href="#" ng-click="filterTunes('TUNETYPE', $index)" class="pure-menu-link">[[t]]</a></li>
+                  </ul>
+                </li>
+                <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+                  <a href="#" id="menuLink2" class="pure-menu-link">Key</a>
+                  <ul class="pure-menu-children">
+                      <li class="pure-menu-item" ng-class="{'pure-menu-selected':selectKeyIdx==-1}">
+                          <a href="#" ng-click="filterTunes('KEY',-1)" class="pure-menu-link">All</a>
+                      </li>
+                      <li ng-repeat="k in mkeys" class="pure-menu-item" ng-class="{'pure-menu-selected':selectKeyIdx==$index}">
+                        <a href="#" ng-click="filterTunes('KEY',$index)" class="pure-menu-link">[[k]]</a>
+                      </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <button ng-click="randomPickMode = true; popupShow('#tw-random-select-popup')"
+                    class="tw-right pure-button button-small button-secondary"
+                    style="display:inline">Random Set Pick</button>
+          </div>
+          <div class="pure-u-1-1 shim-bottom-1">
+          </div>
+       </div>
+        <div class="pure-g" id="tw-tune-table">
+          <div class="pure-u-1">
+            <table class="fixed pure-table pure-table-horizontal">
+              <col width="6%" />
+              <col width="89%" />
+              <col width="5%" />
+              <thead>
+                <tr>
+                  <th>Set</th><th>Tunes</th><th>Since</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr ng-repeat="set in showTradSets | filter:searchText" ng-class="{'pure-table-odd':$odd}">
+                  <td>
+                    <a ng-click="showSet(set)">[[set.setNumber]]</a><span ng-if="set.randomPicked">&nbsp;&#10004;</span>
+                  </td>
+                  <td>
+                    <span ng-repeat="tune in set.tunes">
+                        <a ng-if="tune.link" href="[[tune.link]]" target="_blank">[[tune.title]]</a>
+                        <span ng-if="!tune.link">[[tune.title]]</span>
+                        ([[tune.type]], [[tune.key]]<span ng-if="tune.origin">, [[tune.origin]]</span><span ng-if="tune.author">, comp: [[tune.author]]</span><span ng-if="tune.note">, Note: [[tune.note]]</span>)
+                    </span>
+                  </td>
+                  <td>[[set.since]]</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pure-u-1-1 pure-u-lg-2-24">
+    </div>
+  </div>
+</div>

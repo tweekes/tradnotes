@@ -1,0 +1,35 @@
+---
+layout: null
+---
+{
+  "sets": [
+    {
+      "setNumber": 46,
+      "since" : 2011,
+      "tunes" : [
+          {"title":"Lord Mayo's", "key" : "Am", "type": "march", "origin":"",
+            "link":"https://tunepal.org/index.html#!/tune/5128-bsmi2-tunes.abc-34-Lord~Mayo~(march)~%2525~bsmi2%253Cbb", "author":""},
+          {"title":"Gavotte", "key" : "Am", "type" : "6/4 - Slide / Bretton", "origin":"", "link":"https://tunepal.org/index.html#!/tune/2081-19.abc-1-Gavotte", "author":""},
+          {"title":"Maid of Mt Cisco", "key" : "Am", "type" : "reel", "origin":"", "link":"", "author":"", "note": "Not yet, on the todo list."}
+        ],
+      "note":"This set is inspired by Lúnasa's set"
+    },
+    {
+      "setNumber": 54,
+      "since" : 2015,
+      "tunes" : [
+          {"title":"Kerfunken", "key" : "D", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/139", "author":"Hammy Hamilton",
+            "note":"Played Martin Hayes style"
+          },
+          {"title":"Leading Role", "key" : "G", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/7096", "author":"Liz Carroll"}
+        ]
+    },
+    {
+      "setNumber":100,
+      "since" : 2000,
+      "tunes" : [
+          {"title":"AAA", "key" : "D", "type" : "march", "origin":"", "link":"", "author":""}
+        ]
+    }
+  ]
+}

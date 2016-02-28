@@ -1,0 +1,189 @@
+---
+layout: null
+---
+
+{
+  "authors": [
+    {
+      "name":"Dan O'Keefe",
+      "origin": "Kerry",
+      "notes":"ONE of the most noted characters in Chicago before the great fire of 1871,
+              which practically destroyed the city, was \"Dan\" O'Keeffe, a dancer and performer
+              on the Highland pipes. He was born at Rathmore, County of Kerry, about ten
+              miles east of Killarney, in 1821, and died in Chicago in 1899, the wealthiest pro-
+              fessional piper on record. In his youth he learned to play the flute, but on coming
+              to America in 1847 he took up the practice of the Highland pipes.
+              Before settling down in the western metropolis he had toured the United
+              States and Canada as a traveling piper. His watchword was \"Get the Coin,\"
+              and he surely got it, for he knew the value of advertising when giving entertain-
+              ments in many of the small towns in his itinerancy.
+              Many of his escapades while traveling, when a squint through the peephole
+              in the curtain showed but a slim attendance or \"poor house,\" made him an object
+              of deep interest to the disappointed ticket buyers, who waited in vain for his
+              appearance. Some of ' 'Dan's\" practical jokes had no element of humor at all
+              from their standpoint. Should the box offce receipts, even with a full house,
+              fall into his hands under any pretext, the transfer of his slim baggage and himself
+              to the first train—passenger or freight—was his only solicitude.
+              Anyway, the gay and festive \"Dan\" came to Chicago in the late sixties and
+              opened a saloon on Kinzie Street, near the passenger station of the Chicago and
+              Northwestern Railway, and, being but one square from the Chicago River, it was
+              frequented by sailors, who are proverbially good spenders. But what attracted
+              the most patronage was a large swinging sign over the door, on which was painted
+              a Highland piper in full costume, playing the pipes and dancing to his own music.
+              As a special inducement to the passerby, it was announced on the sign that any-
+              one who beat the proprietor in dancing a jig, reel, hornpipe, or Highland fling,
+              could have his drinks free for a week. Though not specially distinguished as a
+              piper, competent authorities allow that O'Keeffe was an exceptionally fine dancer.
+              As far as we can learn, it is not recorded that any free drinks had been handed
+              out, as a result of the standing challenge.
+              He is profiled by Francis O'Neill in Irish Ministrels and Musicians",
+      "period":{"born":1821,"death":1899},
+      "links":[
+        {"title":"Irish Fiddle Music from Counties Cork and Kerry By Drew Beisswenger", "link":"https://books.google.ie/books?id=nWsKmth9vwgC&pg=PA98&lpg=PA98&dq=%22Dan+O%27Keefe%22+traditional+irish+music&source=bl&ots=9GPlW3ff7Z&sig=-AVK5NdMEz8CFHqisQbUlB5Fcak&hl=en&sa=X&ved=0ahUKEwjfmqG389PKAhUBew8KHXcqDhY4ChDoAQglMAE#v=onepage&q=%22Dan%20O'Keefe%22%20traditional%20irish%20music&f=false"}
+      ]
+    },
+    {
+      "name":"Denis Murphy",
+      "origin":"Kerry",
+      "notes":"Murphy was born in Lisheen, Gneeveguilla, County Kerry one of eight children of
+              Bill and Mainie (née Corbett) Murphy. His father played fife, flute and fiddle and
+              had a fife and drum band. It was a house where music was played a lot with neighbours
+              calling in. He and his sister Julia Clifford were taught fiddle by Padraig O'Keeffe.
+              He later played with the Lisheen Fife and Drum Band. Murphy emigrated to the United States,
+              and in 1942 married Julie Mary Sheehan. They returned often to Ireland and returned permanently
+              to Lisheen in 1965. While in the United States he played with the Ballinmore Ceili Band, with such
+              players as Paddy Killoran, James Morrison, Andy McGann and Lad O'Beirne.",
+      "links":{"title":"wikipedia", "link":"https://en.wikipedia.org/wiki/Denis_Murphy_(Irish_musician)"},
+      "period":{"born":1910,"death":1974}
+    },
+    {
+      "name":"Brendan Tonra",
+      "origin":"Sligo/Mayo",
+      "notes":"
+      Brendan Tonra, a native of Gowlan near Doocastle on the Sligo-Mayo border, emigrated to America over forty years ago and has resided in the Boston area ever since.
+      Perhaps best known to musicians as the composer of the popular Tonra’s Jig, Brendan has composed literally hundreds of tunes. He composed his first tune in 1954 at age 19, entitled the Gowlan Reel, when left at home digging potatoes while his father went to a County Council meeting. Brendan related that since then ‘many tunes have come to me while riding the bus or subway, sitting quietly at home, at work, or most anywhere it seems.’
+      In 2001 Brendan, together with his close friend Helen Kisiel, collaborated to publish a book of his tunes, totalling nearly 100 compositions. It is entitled ‘A Musical Voyage with Brendan Tonra.’
+      Says Brendan, ‘My father played the fiddle and my mother knew all the tunes, but I didn’t learn the fiddle from my father. I just picked it up when I was seven or eight years old and my mother showed me how to get the notes. Then my grandfather, John Henry, left me his fiddle, so after that I learned to play, listening to recordings at my Aunt Peg Ryan’s house. She had a phonograph and there I heard recordings of Michael Coleman and Paddy Killoran. At about age 16, I started playing at porter sprees and
+      dances, hearing the likes of Johnny ‘Watt’ Henry, Pack Spellamn, Mick Joe Ryan, Jim Durcan, Johnny Cawley, and others, playing in the local Sligo style.
+      Once a month, a fine night of music was had in the local creamery, musicians playing for the dancers who battered out the sets on the stone floor, ‘and you wouldn’t need a mike, either,’ says Brendan. Kennedy’s in Doocastle was always a good place for a session, especially on a Fair Day. The boss of the house always had a fiddle or a flute under the counter, and once the music began, the poor cows were soon forgotten.
+      Brendan continued playing music in Boston with the Tara Band whose members included Mickey Connolly, accordion; Larry Reynolds, fiddle; Frank Neylon, flute; Tom Garvey, piano; George Shanley, drums; and Terry Landers, accordion. Later he joined the Connacht Céilí Band formed by Mike McDonagh which, over the subsequent years, made a record and two tours to Ireland.",
+      "links":[
+        {"title":"Brendan Tonra (b. 1935)", "link":"http://irishtunecomposers.weebly.com/brendan-tonra.html"}
+      ],
+      "period":{"born":1935,"death":null, "circa":null}
+    },
+    {
+      "name":"Turlough O'Carolan",
+      "origin":"Nobber, Co. Meath",
+      "notes":"
+      The blind harpist Turlough O'Carolan is generally recognised to be Ireland's first great composer.
+      Now his music is firmly established in the traditional repertoire and also crosses over into the classical repertoire. Seán Ó Ríada and The Chieftains made his music famous around the world.
+      Most of his tunes are named after people or families (Planxty's), usually these were his patrons.
+      Some of his most popular tunes include O'Carolan's Concerto, Carolan's Draught, Carolan's Receipt, Eleanor Plunkett, Fanny Power, George Brabazon, Hewlett, Mrs Mc Dermott, Lord Inchiquin, Planxty Irwin and Sí Bheag, Sí Mhór.
+      The following biography comes from the Enyclopedia Britannica Turlough O'Carolan, also called Terence Carolan (born 1670, near Nobber, County Meath, Ireland, died March 25th, 1738, Alderford, County Roscommon), one of the last Irish harpist-composers and the only one whose songs survive in both words and music in significant number (about 220 of provable provenance are extant with an uncounted number apocryphally attributed).
+      The son of an iron founder, O'Carolan became blind from smallpox at the age of 18. He was befriended by a Mrs. MacDermott-Roe, the wife of his father's employer, who apprenticed him to a harper and supported him for the three years of his training, then gave him money, a guide, and a horse.
+      As an itinerant harper, he traveled widely in Ireland. Although never considered a master performer, he was highly regarded as a composer of songs and improvised verse. His tunes appeared widely in 18th-century collections.
+      ",
+      "links":[{"title":"Turlough O'Carolan (1670-1738)", "link":"http://irishtunecomposers.weebly.com/turlough-ocarolan.html"}],
+      "period":{"born":"1670","death":"1738", "circa":""}
+    },
+    {
+      "name":"Terry 'Cuz' Teahan",
+      "origin":"Kerry",
+      "notes":"Born in Gleantann in 1905. He was a student of the great Sliabh Luachra fiddle master Padraig O'Keeffe at the local school,
+               then emigrated to Chicago in 1928. He played concertina , accordion and fiddle, and was also quite a composer of slides and
+               polkas. Many of his tunes became very popular in Ireland and elsewhere. They are often named after him.",
+      "links":[
+          {"title":"Ceol Álainn","link":"http://ceolalainn.blogspot.ie/2010/03/terry-teahan-gene-kelly-old-time-irish.html"},
+          {"title":"Terry 'Cuz' Teahan (1905-1989)","link":"http://irishtunecomposers.weebly.com/terry-cuz-teahan.html"}
+      ],
+      "period":{"born":1905,"death":1989, "circa":null}
+    },
+    {
+      "name":"Jim Ward",
+      "origin":"Clare",
+      "notes":"Jimmy Ward (1909 in Tullagha, Kilfenora – 1987 in Milltown Malbay) was a well known Irish traditional banjo player and lilter out
+               of Milltown Malbay, County Clare, Ireland. Ward originally played the flute, piccolo and the whistle, but changed to the banjo in
+               the 1940s. Ward was one of the founders of the renewed Kilfenora Céilí Band in 1927. He was still a part of the band when they won
+               three consecutive All Ireland championships at the Fleadh Cheoil. He is the namesake of Jimmy Ward's Jig. In 1974, Ward decided to
+                leave the Kilfenora Céilí Band. He started a new band named Bannermen with PJ Murrihy and Michael Sexton Later in life, Ward moved
+                to Milltown Malbay, where he opened a small shop.In the early seventies he had a severe car crash in Inagh.",
+      "links":[{"title":"Wikipedia","link":"https://en.wikipedia.org/wiki/Jimmy_Ward_(banjo_player)"}],
+      "period":{"born":1909 ,"death":1987, "circa":""}
+    },
+    {
+      "name":"Lucy Farr",
+      "origin":"East Galway",
+      "notes":"
+        From Ballinakill, County Galway, Eire. An active member of the Rakes for 25 years, venerable Irish fiddler Lucy Farr worked regularly
+        with folk artists such as Bob Davenport, Margaret Barry, Bobby Casey, Jimmy Power and Julia Clifford at a time when
+        Irish traditional music was not achieving the attention it now enjoys. A founder member of the Comhaltas Ceoltiri Eireann
+        organisation, including a span of seven years as its vice-chairman, she has contributed greatly to the advocacy of
+        Irish tradition in music and arts. She began playing at the age of 12 at Saturday night \"house dances\" at her father's
+        residence, and from then has concentrated on ceilidhs and pub sessions rather than pushing her able technique into the
+        concert limelight. Never one to seek fortune other than enjoyment from her musical talent, she contributed four songs to
+        the 1967 compilation, Paddy In The Smoke. This was later used as the inspiration for Globestyle's 1994 album, In The
+        Smoke, which included another of her compositions, \"The Mother Reel\". Indeed, her tunes have been widely admired and
+        documented, notably in Pete Cooper's book on fiddling, All Around The World. Arty McGlynn and Nollaig Casey also
+        interpreted Farr's \"Music On The Wind\" as part of their 1989 release. In 1992 an album was recorded to celebrate her
+         80th birthday, Heart And Home, which revealed her technique to be undiminished by her advanced age.
+      ",
+      "links":[
+          {"title":"Irish fiddle - Lucy Farr (youtube)","link":"https://www.youtube.com/watch?v=NDtTP08LxXU"},
+          {"title":"Lucy Farr - Heart and Home","link":"http://www.mustrad.org.uk/articles/farr.htm"},
+          {"title":"Biography (Above text)","link":"http://www.allmusic.com/artist/lucy-farr-mn0000305174"}
+      ],
+      "period":{"born":"1911","death":"", "circa":""}
+    },
+    {
+      "name":"Francis O’Neill (Collector)",
+      "origin":"Cork / Chicago",
+      "notes":"
+      Chief O’Neill, the eponym of this tune, “Chief O’Neill’s Favourite,” was Francis O’Neill (1848-1936), born in county Cork.
+      He was a cabin-boy on an English merchant ship in the 1860s, eventually immigrating to the States. He moved to Chicago with
+      his wife and joined the police force at the age of 25. He became the chief of the Chicago police force from 1901 to 1905,
+      and was known as “Chief O’Neill” for the rest of his life. He and his friend James O’Neill (no relation) were avid collectors
+      of Irish tunes, and Francis was also a collector of Irish musicians, often finding work for them on the Chicago police force.
+      He is sometimes said to have started the first American revival of traditional music, yanking it back from the “stage Irish”
+      of vaudevillians.  His works include: “O’Neill’s 1850” Music of Ireland (1903), “O’Neill’s 1001” The Dance Music of Ireland (1907),
+      and “O’Neill’s 365” Waifs and Strays of Gaelic Melody (1922).  He also wrote two books worth reading: Irish Folk Music: A Fascinating
+      Hobby (1910), and Irish Minstrels and Musicians (1913). His biography written by Nicolas Carolan, entitled A Harvest Saved: Francis O’Neill
+      and Irish Music in Chicago, was published in 1997.
+      ",
+      "links":[{"title":"Chief O’Neill’s Favourite (D)","link":"http://slowplayers.org/2014/05/07/chief-oneills-favourite-d/"}],
+      "period":{"born":"1848","death":"1936", "circa":""}
+    },
+    {
+      "name":"Charlie Lennon",
+      "origin":"",
+      "notes":"
+      Born in Kiltyclogher, north county Leitrim, Charlie started piano at age seven. He also started on fiddle, taught by his brother Ben, who
+      brought him through the music of the Sligo masters Coleman, Killoran, Morrison and Gillespie.
+
+      He went on to study classical violin in his late teens as well as studying classical and jazz harmonies. From age seventeen Charlie was
+      a professional musician playing with several céilí bands, variously on piano, fiddle, drums and double bass. At twenty-two Charlie enroled
+      at Liverpool University, eventually securing a Doctorate in Nuclear Physics. While in Liverpool he played with the ‘Liverpool Céilí Band’ from 1960 to 1968. The ‘Liverpool’ won two
+      All-Ireland titles, recorded two albums with Decca and toured in the United States. In 1969 he moved back to Ireland with his wife,
+      sean-nós singer, Sile Ni Fhlaithearta from Spiddal.
+
+      In the late 1970s Charlie began composing tunes in a serious way, most of which ended up in the book of his compositions Musical Memories
+      (Waltons) released in 1993. His recordings include Lucky in Love (with Mick O’Connor), The Emigrant Suite, Flight from the Hungry Land
+      (from which the show and video Waves was taken), Island Wedding, Time for a Tune and Turning the Tune.
+
+      Many famous Irish musicians and bands have recorded his tunes, including: De Dannan, Liam O’Flynn, Kevin Burke, Sharon Shannon, Altan and
+      The London Lasses and Pete Quinn. Along with his brother Ben, and Ben’s sons Brian and Maurice, he recorded the album Dance of the Honey Bees.
+      He also appears on Ben’s solo album The Natural Bridge. Charlie has been piano accompanist on over twenty-five albums, among them Omos do Joe
+      Cooley with Paul Brock and Frankie Gavin and The Bucks of Oranmore with Joe Burke.
+      ",
+      "links":[{"title":"The Irish Tune Composers' Pages","link":"http://irishtunecomposers.weebly.com/charlie-lennon.html"}],
+      "period":{"born":"1938","death":"", "circa":""}
+    },
+    {
+      "name":"",
+      "origin":"",
+      "notes":"",
+      "links":[{"title":"","link":""}],
+      "period":{"born":"","death":"", "circa":""}
+    }
+
+]
