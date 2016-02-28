@@ -5,34 +5,37 @@ angular.module('App', [])
     $scope.randomPickHistory = [];
     $scope.selectedSet = null;
     $scope.randomPickMode = false;
-    $http.get('/sets.json').success(function(data) {
-      $scope.tradSets = data.sets;
-      $scope.showTradSets = $scope.tradSets;
-      $scope.smallScreen = false;
+
+    $scope.loadTuneData = function(tradsetsUrlStem) {
+      $http.get(tradsetsUrlStem + 'sets.json').success(function(data) {
+        $scope.tradSets = data.sets;
+        $scope.showTradSets = $scope.tradSets;
+        $scope.smallScreen = false;
 
 
-      var mkeys = [];
-      var tuneTypes = [];
-      var setYears = [];
-      var setCount = 0;
-      var tuneCount = 0;
-      _.each($scope.tradSets,function(s){
-            setCount++;
-            _.each(s.tunes,function(t){
-                tuneCount++;
-                mkeys.push(t.key);
-                tuneTypes.push(t.type);
-            });
-            setYears.push(s.since);
+        var mkeys = [];
+        var tuneTypes = [];
+        var setYears = [];
+        var setCount = 0;
+        var tuneCount = 0;
+        _.each($scope.tradSets,function(s){
+              setCount++;
+              _.each(s.tunes,function(t){
+                  tuneCount++;
+                  mkeys.push(t.key);
+                  tuneTypes.push(t.type);
+              });
+              setYears.push(s.since);
+        });
+        $scope.tunecount=tuneCount;
+        $scope.setcount=setCount;
+        $scope.mkeys = _.uniq(mkeys);
+        $scope.tuneTypes = _.uniq(tuneTypes);
+        $scope.setYears = _.uniq(setYears);
       });
-      $scope.tunecount=tuneCount;
-      $scope.setcount=setCount;
-      $scope.mkeys = _.uniq(mkeys);
-      $scope.tuneTypes = _.uniq(tuneTypes);
-      $scope.setYears = _.uniq(setYears);
-    });
-    $scope.selectKeyIdx = -1;
-    $scope.selectTuneTypeIdx = -1;
+      $scope.selectKeyIdx = -1;
+      $scope.selectTuneTypeIdx = -1;
+    };
 
 
     $scope.filterTunes = function(field,idx) {

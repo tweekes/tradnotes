@@ -4,7 +4,7 @@ title: Tunes
 permalink: /tunes/
 ---
 <div ng-app="App" ng-controller="TradSetCtrl">
-  <div class="pure-g">
+  <div class="pure-g" ng-init="loadTuneData('{{site.baseurl}}')">
       <div class="pure-u-1">
             <h1 class="content-subhead">Tunes</h1>
             <p> The list below gives some of the tune sets that are played at the <b>Tramore Wednesday Trad Session</b>
