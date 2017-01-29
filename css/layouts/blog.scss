@@ -32,6 +32,15 @@ $color-e: #081696; /* [.content-subhead] color*/
   background-color: white;
 }
 
+#tw-author-detail-popup {
+  display: none;  /* Will be updated to block programatically. */
+  position: absolute;
+  z-index: 1003;
+  padding: 6px;
+  border: 2px solid $color-a;
+  background-color: white;
+}
+
 .tw-table-full-width {
   width:100%;
 }
@@ -249,6 +258,9 @@ h3 {
   background: $color-b ;
 }
 
+.shim-left-0 {
+  margin-left: 0.5em;
+}
 .shim-left-1 {
   margin-left: 1em;
 }
@@ -261,6 +273,14 @@ h3 {
 }
 .shim-top-1 {
   margin-top: 1em;
+}
+
+.shim-top-2 {
+  margin-top: 1.5em;
+}
+
+.shim-top-3 {
+  margin-top: 2em;
 }
 
 

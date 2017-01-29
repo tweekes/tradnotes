@@ -1,0 +1,86 @@
+---
+layout: default
+title: Influencers
+permalink: /Influencers/
+---
+
+<div ng-app="App" ng-controller="InfluencersCtrl">
+  <div class="pure-g" ng-init="loadData('{{site.baseurl}}')">
+    <div class="pure-u-1">
+        <h1 class="content-subhead">Influencers</h1>
+        <p>
+          Often we play tunes at sessions and give no thought to the origin of these tunes.
+          This page presents a list of the influencers of the tunes we play at the local sessions (Tramore, Co. Waterford, Ireland).
+          Influencers are composers, artist / bands who have brought attention to particular tunes, or collectors of tunes
+          (Francis O’Neill was a major figure here). The content presented on this page has been taken largely from other websites but
+          the purpose here is to present a focused set of influencer information and notes. The list below gives the name of the influencer, the
+          region of where the influencer is known, or believed, to have come from, the time period, and a link to more detailed notes.
+        </p>
+    </div>
+  </div>
+  <div class="pure-g shim-top-3">
+    <div class="pure-u-1-1 pure-u-lg-2-24">
+    </div>
+    <div class="pure-u-1-1 pure-u-lg-20-24" style="position:relative" >
+
+      <!-- Popup -->
+      <div class="pure-u-1-1" id="tw-author-detail-popup">
+          <div class="pure-g">
+            <div class="pure-u-1-1 pure-u-lg-8-24">
+              <div style="text-align:center">
+                <strong>Influencer:</strong><span class="shim-left-0">[[selectedInfluencer.name]]</span>
+              </div>
+            </div>
+            <div class="pure-u-1-1 pure-u-lg-8-24">
+              <div style="text-align:center">
+                <strong>Region:</strong><span class="shim-left-0">[[selectedInfluencer.origin]]</span>
+              </div>
+            </div>
+            <div class="pure-u-1-1 pure-u-lg-8-24">
+              <div style="text-align:center">
+                <strong>Period:</strong><span class="shim-left-0">[[periodDetail(selectedInfluencer)]]</span>
+              </div>
+            </div>
+            <div class="pure-u-1-1">
+                <p>[[selectedInfluencer.notes]]</p>
+            </div>
+
+            <div class="pure-u-1-1">
+                <span><strong>References:</strong></span>
+                <span ng-repeat="r in selectedInfluencer.links"> <a href="[[r.link]]">[[r.title]]</a>
+            </div>
+
+            <div class="pure-u-1-1 shim-top-0">
+              <button ng-click="popupHide('#tw-author-detail-popup');"  class="pure-button button-small button-secondary tw-right">Close</button>
+            </div>
+          </div>
+      </div>
+
+      <!-- Popup End -->
+
+      <div id="tw-authors-table">
+      <table class="fixed pure-table pure-table-horizontal" style="margin: 0 auto;">
+        <thead>
+          <tr>
+            <th>Influencer</th><th>Region</th><th>Period</th><th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="i in influencers | filter:searchText" ng-class="{'pure-table-odd':$odd}">
+            <td>[[i.name]]</td>
+            <td>[[i.origin]]</td>
+            <td>[[periodDetail(i)]]</td>
+            <td style="text-align:center">
+              <a class="button-xsmall pure-button" ng-click="showNotes(i,'#tw-author-detail-popup')">
+                  <i class="fa fa-external-link"></i>
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </div>
+    <div class="pure-u-1-1 pure-u-lg-2-24">
+    </div>
+  </div>
+</div>

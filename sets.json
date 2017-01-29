@@ -510,7 +510,7 @@ layout: null
       "setNumber": 57,
       "since" : 2016,
       "tunes" : [
-          {"title":"Ciaran's Capers - Tune 1 (Altan)", "key" : "Amix", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/4754", "author":"",
+          {"title":"Ciaran's Capers - Tune 1 (Altan)", "key" : "Amix", "type" : "jig", "origin":"", "link":"https://musescore.com/user/3811861/scores/1753926", "author":"",
             "refs":[{"title":"Musescore","link":"https://musescore.com/user/3811861/scores/1753926"}]
           },
           {"title":"Ciaran's Capers - Tune 2 (Altan)", "key" : "Amix", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/12537", "author":""}
@@ -520,8 +520,8 @@ layout: null
       "setNumber": 58,
       "since" : 2016,
       "tunes" : [
-          {"title":"Thaledo's", "key" : "D", "type" : "barndance", "origin":"", "link":"https://www.youtube.com/watch?v=kzXrXTUPukU", "author":""},
-          {"title":"Turkey in the Straw", "key" : "D", "type" : "barndance", "origin":"", "link":"", "author":""}
+          {"title":"Ger the Rigger", "key" : "A", "type" : "Polka", "origin":"", "link":"https://thesession.org/tunes/1367", "author":""},
+          {"title":"Thadelo's", "key" : "D", "type" : "barndance", "origin":"", "link":"https://www.youtube.com/watch?v=kzXrXTUPukU", "author":""}
         ]
     },
     {
