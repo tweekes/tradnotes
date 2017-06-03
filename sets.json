@@ -496,7 +496,7 @@ layout: null
             "note":"Played Martin Hayes style"
           },
           {"title":"Leading Role", "key" : "G", "type" : "reel", "origin":"", "link":"https://thesession.org/tunes/7096", "author":"Liz Carroll"}
-        ]
+        ] 
     },
     {
       "setNumber": 56,
@@ -531,6 +531,48 @@ layout: null
         {"title":"Jig of Slurs", "key" : "D", "type" : "jig"},
         {"title":"Atholl Highlander Jig", "key" : "A", "type" : "jig"}
       ]
+    },
+    {
+      "setNumber":60,
+      "since" : 2016,
+      "tunes" : [
+          {"title":"Sergeant Early’s Dream", "key" : "Ddor", "type" : "Reel", "origin":"", "link":"https://thesession.org/tunes/1651", "author":""}
+        ]
+    },
+    {
+      "setNumber":61,
+      "since" : 2017,
+      "tunes" : [
+          {"title":"Crested Hen", "key" : "Edor", "type" : "Waltz", "origin":"France", "link":"http://slowplayers.org/2014/05/05/crested-hens-edor/", "author":"Gilles Chabenat"}
+        ]
+    },
+    {
+      "setNumber":62,
+      "since" : 2017,
+      "tunes" : [
+          {"title":"Hardiman the Fiddler", "key" : "D Mix", "type" : "Slip Jig", "origin":"", "link":"https://thesession.org/tunes/48", "author":""}
+        ]
+    },
+    {
+      "setNumber":63,
+      "since" : 2017,
+      "tunes" : [
+          {"title":"Sean Ryan's", "key" : "Ador", "type" : "jig", "origin":"", "link":"https://thesession.org/tunes/14238", "author":""}
+        ]
+    },
+    {
+      "setNumber":64,
+      "since" : 2017,
+      "tunes" : [
+          {"title":"Green Mountain", "key" : "G", "type" : "Reel", "origin":"Donegal", "link":"http://www.allcelticmusic.com/music/36768fb0-a0c7-11e0-8bbb-12313d02ceaa/A_Feeling_In_the_Blood.html", "author":"Neillidh Boyle(?)"}
+        ]
+    },
+    {
+      "setNumber":65,
+      "since" : 2017,
+      "tunes" : [
+          {"title":"Cúil Aodha", "key" : "G", "type" : "Jig", "origin":"", "link":"https://thesession.org/tunes/825", "author":""}
+        ]
     }
   ],
 
