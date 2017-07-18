@@ -1,0 +1,136 @@
+---
+layout: default
+title: Fretboards
+permalink: /Fretboards/
+---
+
+    <style>
+
+        #C {
+
+        }
+        .canvas-container { 
+          margin:0 auto;
+        }
+                    
+        #tw-navigation {
+          width: 50%; 
+          margin: 0 auto; 
+          text-align: center;
+        }
+
+        .vspacer {
+          margin-top: 1em;
+        }
+
+        .hspacer {
+          margin-left: 1em;
+        }
+
+        .twcenter {
+          /*width:30%; */
+          margin:0 auto;
+           text-align: center;
+        }
+
+        #positionsForNote {
+          font-size: 60%;
+        }
+
+        #positionsForNote input[type="radio"] {
+          border: 0px;          
+          height: 1em;
+        }
+
+
+    </style>
+
+  <div>  
+
+    <h1 class="content-subhead">Fretboards</h1>
+
+    <div class="twcenter">
+        <select id="tuning" onchange="tuningChanged(this)"></select>
+    </div>
+    
+    <div class="vspacer"></div>
+
+    <div id="tw-navigation">  
+      <input type="radio" checked="true" name="fretboardActivity" 
+             id="fretboard" value="fretboard" onclick="navigationMgr(this)" />
+      <label for="fretboard">Fretboard</label>
+
+      <input type="radio" name="fretboardActivity" 
+             id="scales" value="scales" onclick="navigationMgr(this)"/>
+      <label for="scales">Scales</label>
+
+      <input type="radio" name="fretboardActivity" 
+             id="practice" value="practice" onclick="navigationMgr(this)"/>
+      <label for="practice">Practice</label>
+    </div>
+
+    <div class="twcenter">
+        <p id="tw-helpText"></p>
+
+    </div>
+    
+    <canvas id="C" width="620" height="130" ></canvas> 
+        
+    <div id="positionsForNote" class="twcenter">
+
+      <label>Show:</label>  
+
+      <input type="radio" checked="true" name="positionsForNoteRG" 
+             id="none" value="none" onclick="positionsForNoteHandler(this)" />
+      <label for="none">None</label>
+
+      <input type="radio" name="positionsForNoteRG" 
+             id="A" value="A" onclick="positionsForNoteHandler(this)"/>
+      <label for="A">A</label>
+      <input type="radio" name="positionsForNoteRG" 
+             id="B" value="B" onclick="positionsForNoteHandler(this)"/>
+      <label for="A">B</label>
+      <input type="radio" name="positionsForNoteRG" 
+             id="C" value="C" onclick="positionsForNoteHandler(this)"/>
+      <label for="C">C</label>
+      <input type="radio" name="positionsForNoteRG" 
+             id="Csharp" value="C#" onclick="positionsForNoteHandler(this)"/>
+      <label for="Csharp">C#</label>
+      <input type="radio" name="positionsForNoteRG" 
+             id="D" value="D" onclick="positionsForNoteHandler(this)"/>
+      <label for="D">D</label>
+      <input type="radio" name="positionsForNoteRG" 
+             id="E" value="E" onclick="positionsForNoteHandler(this)"/>
+      <label for="E">E</label>
+      <input type="radio" name="positionsForNoteRG" 
+             id="F" value="F" onclick="positionsForNoteHandler(this)"/>
+      <label for="F">F</label>
+      <input type="radio" name="positionsForNoteRG" 
+             id="Fsharp" value="F#" onclick="positionsForNoteHandler(this)"/>
+      <label for="Fsharp">F#</label>
+      <input type="radio" name="positionsForNoteRG" 
+             id="G" value="G" onclick="positionsForNoteHandler(this)"/>
+      <label for="G">G</label>
+    </div>
+
+    <div class="vspacer"></div>
+
+    <div id="practiceStats" class="twcenter">
+      <label>Count:</label> <span id="ps_count">5</span>
+      <label class="hspacer">Average:</label> <span id="ps_average">1.2</span> 
+      <label class="hspacer">Last:</label> <span id="ps_last">1.2</span> 
+    </div>
+
+    <div class="vspacer"></div>
+            
+    <div id="actionButtonContainer"class="twcenter">
+        <button id="actionButtonID" onclick="actionBtn()">Next</button>   
+    </div>
+
+    <script src="{{ 'javascript/fretboards/scales.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'javascript/fretboards/practicemgr.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'javascript/fretboards/practiceStats.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'javascript/fretboards/availableTunings.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ 'javascript/fretboards/fretboards.js' | prepend: site.baseurl }}"></script>
+
+<div>
