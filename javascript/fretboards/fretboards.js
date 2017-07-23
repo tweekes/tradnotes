@@ -3,8 +3,8 @@ var actionButtonLabel = null;
 var actionButtonLabels = ['Next','Answer'];
 var canvas = null;
 var currentFunction="fretboard";
-var offsetH = 52, offsetV = 8;  // offsetH = 12
-var stringGap = 20, fretWidth = 40;
+var offsetH = 104, offsetV = 16;  // offsetH = 12 // doubled
+var stringGap = 40, fretWidth = 80;  // doubled
 var numberOfFrets = 14;
 
 var tunings = new AvailableTunings();
@@ -27,11 +27,11 @@ var lastPracticePositionsForNote = "none";
 function drawFretBoard() {
     var currentTuning = tunings.getSelected();
     var numStrings =  currentTuning.strings.length
-    var fretHeight = stringGap * (numStrings -1) + 6;
+    var fretHeight = stringGap * (numStrings -1) + 12;  // 6 -> 12
 
    _(numStrings).times(function(n){
-            var y = n*stringGap +10;
-            var l = new fabric.Line([48, y, 600, y], {
+            var y = n*stringGap +20;  // 10 -> 20
+            var l = new fabric.Line([48, y, 1200, y], {   // doubled y
                 stroke: 'black'
             });
             
@@ -48,19 +48,25 @@ function drawFretBoard() {
     })
 
     if (numStrings === 6) {
-        drawFretDot(offsetH + fretWidth * 2 + fretWidth /2 -6, offsetV + fretHeight / 2 - 6); // Fret 3
-        drawFretDot(offsetH + fretWidth * 4 + fretWidth /2 -6, offsetV + stringGap + stringGap / 2 - 3); // Fret 5
-        drawFretDot(offsetH + fretWidth * 4 + fretWidth /2 -6, offsetV + stringGap * 3 + stringGap / 2 - 3); // Fret 5
-        drawFretDot(offsetH + fretWidth * 6 + fretWidth /2 -6, offsetV + fretHeight / 2 - 6); // Fret 7
-        drawFretDot(offsetH + fretWidth * 8 + fretWidth /2 -6, offsetV + stringGap + stringGap / 2 - 3); // Fret 9
-        drawFretDot(offsetH + fretWidth * 8 + fretWidth /2 -6, offsetV + stringGap * 3 + stringGap / 2 - 3); // Fret 9
-        drawFretDot(offsetH + fretWidth * 11 + fretWidth /2 -6,offsetV + fretHeight / 2 - 6); // Fret 12
+        drawFretDot(offsetH + fretWidth * 2 + fretWidth /2, offsetV + fretHeight / 2 ); // Fret 3
+
+        var fudgeA = 6;
+        drawFretDot(offsetH + fretWidth * 4 + fretWidth /2, offsetV + fudgeA + stringGap + stringGap / 2); // Fret 5
+        drawFretDot(offsetH + fretWidth * 4 + fretWidth /2, offsetV + fudgeA + stringGap * 3 + stringGap / 2); // Fret 5
+        
+        drawFretDot(offsetH + fretWidth * 6 + fretWidth /2, offsetV + fretHeight / 2); // Fret 7
+        
+        drawFretDot(offsetH + fretWidth * 8 + fretWidth /2, offsetV + fudgeA + stringGap + stringGap / 2); // Fret 9
+        drawFretDot(offsetH + fretWidth * 8 + fretWidth /2, offsetV + fudgeA + stringGap * 3 + stringGap / 2); // Fret 9
+        
+        drawFretDot(offsetH + fretWidth * 11 + fretWidth /2,offsetV + fretHeight / 2); // Fret 12
+
     } else if (numStrings === 4) {
-        drawFretDot(offsetH + fretWidth * 2 + fretWidth /2 -6, offsetV + fretHeight / 2 - 6); // Fret 3
-        drawFretDot(offsetH + fretWidth * 4 + fretWidth /2 -6, offsetV + fretHeight / 2 - 6); // Fret 5
-        drawFretDot(offsetH + fretWidth * 6 + fretWidth /2 -6, offsetV + fretHeight / 2 - 6); // Fret 7
-        drawFretDot(offsetH + fretWidth * 8 + fretWidth /2 -6, offsetV + fretHeight / 2 - 6); // Fret 9
-        drawFretDot(offsetH + fretWidth * 11 + fretWidth /2 -6,offsetV + fretHeight / 2 - 6); // Fret 12
+        drawFretDot(offsetH + fretWidth * 2 + fretWidth /2, offsetV + fretHeight / 2); // Fret 3
+        drawFretDot(offsetH + fretWidth * 4 + fretWidth /2, offsetV + fretHeight / 2); // Fret 5
+        drawFretDot(offsetH + fretWidth * 6 + fretWidth /2, offsetV + fretHeight / 2); // Fret 7
+        drawFretDot(offsetH + fretWidth * 8 + fretWidth /2, offsetV + fretHeight / 2); // Fret 9
+        drawFretDot(offsetH + fretWidth * 11 + fretWidth /2,offsetV + fretHeight / 2); // Fret 12
     }
 
     canvas.selection = false;
@@ -71,13 +77,16 @@ function drawFretBoard() {
 
 
 function drawCircleAtFretPosition(fretNumber,stringNumber,drawText,noteLetter,buffer) {
-    var radius = 8; 
-    var vPos = offsetV + (stringNumber - 1) * stringGap - radius + 2;
-    var hPos = offsetH + fretWidth * (fretNumber - 1) + fretWidth / 2 - radius; 
+    var radius = 12; // 8 -> 12
+    var vPos = offsetV + (stringNumber - 1) * stringGap +4;
+    var hPos = offsetH + fretWidth * (fretNumber - 1) + fretWidth / 2; 
 
     var circleObj = new fabric.Circle();
 
-    circleObj.set({radius: radius, fill: 'blue', left: hPos , top: vPos, selectable:false});
+    circleObj.set({
+        originX:'center', originY:'center',
+        radius: radius, fill: '#5A120F', left: hPos , top: vPos, selectable:false}
+        );
     canvas.add(circleObj);
 
     if (buffer) buffer.push(circleObj);
@@ -92,7 +101,8 @@ function drawCircleAtFretPosition(fretNumber,stringNumber,drawText,noteLetter,bu
 
 function drawFretDot(left,top) {        
     canvas.add(new fabric.Circle({
-        radius: 6, fill: '#DDD', left: left , top: top
+        originX:'center', originY:'center', 
+        radius: 12, fill: '#DDD', left: left , top: top  // 6 -> 12
     }));
 }
 
@@ -147,7 +157,7 @@ function actionBtn() {
 
 
 function drawAnimatedCircle(fretNumber,stringNumber,lastCircle) {
-    var startRadius = 5, endRadius = 8;
+    var startRadius = 8, endRadius = 12;
     var pos = calcCenterPosition(fretNumber,stringNumber);
 
     if(lastCircle) {
@@ -156,11 +166,13 @@ function drawAnimatedCircle(fretNumber,stringNumber,lastCircle) {
 
     var c = new fabric.Circle();
     c.set({radius: startRadius, 
-            fill: 'blue',
+            originX:'center',
+            originY:'center',
+            fill: '#5A120F',
             originX:'center', 
             originY:'center',  
             left: pos.hPos, 
-            top: pos.vPos,
+            top: pos.vPos +3,
             selectable:false });
     canvas.add(c);
 
@@ -205,18 +217,8 @@ function answer() {
     var note = practiceMgr.fretBoardNoteAt(fbp.fretNumber,fbp.stringNumber);
     var pos = calcCenterPosition(fbp.fretNumber,fbp.stringNumber);
     
-    var answerText = new fabric.Textbox(note, {                        
-                stroke: "white",
-                originX:'center',
-                originy:'center',
-                top: pos.vPos -6,   // fudge factor!
-                left: pos.hPos,
-                fontSize: 9,
-                selectable:false }
-                );
-    canvas.add(answerText);
+    lastAnswerText = drawText(pos.hPos,pos.vPos+3,note,null);
     canvas.renderAll();
-    lastAnswerText = answerText;
 }
 
 function calcCenterPosition(fretNumber,stringNumber) {
@@ -251,18 +253,20 @@ function clearCanvasItemsBuffer() {
 
 
 function drawText(hPos,vPos,noteLetter,buffer) {
-    var hAdjust =  (noteLetter.length == 1) ? 4.6:2.5;
     var text = new fabric.Textbox(noteLetter, {
             selectable:false,
+            originX:'center',
+            originy:'center',
             stroke :"white",
-            top:vPos+4,
-            left:hPos + hAdjust,
-            fontSize: 8,
+            top:vPos -7,
+            left:hPos,
+            fontSize: 13,
             fontWeight:'normal',
             fontFamily:'Comic Sans MS'}
             );
     if(buffer) buffer.push(text);        
     canvas.add(text);
+    return text;
 }
 
 
@@ -293,9 +297,10 @@ canvas.on('mouse:down', function(event) {
         if (currentFunction === "scales") {
             canvas.deactivateAll();
             var pointer = canvas.getPointer(event.e);
-            if( pointer.x >= 0 && pointer.y >= 0 && pointer.y <=120) {
-                var fretNumber = Math.floor((pointer.x - 10) / fretWidth);
+            if( pointer.x >= 0 && pointer.y >= 0 && pointer.y <=240) {
+                var fretNumber = Math.floor((pointer.x - 20) / fretWidth);
                 var stringNumber = 1 + Math.floor(pointer.y / stringGap);
+                // console.log ("stringNumber: " + stringNumber + " fretNumber: " + fretNumber);
                 showScale(stringNumber,fretNumber);
             }
         }
